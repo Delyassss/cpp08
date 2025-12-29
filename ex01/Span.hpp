@@ -18,6 +18,7 @@ class Span
         std::vector<int> data;
         unsigned int sizeLimit;
     public:
+        Span();
         Span(unsigned int n);
         ~Span();
         Span(const Span &other);

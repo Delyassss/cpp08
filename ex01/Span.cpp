@@ -1,6 +1,9 @@
 #include "Span.hpp"
 
+Span::Span() : sizeLimit(0)
+{
 
+}
 Span::Span(unsigned int n) : sizeLimit(n)
 {
 }
